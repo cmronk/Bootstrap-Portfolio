@@ -4,6 +4,7 @@
         <title>Bootstrap Portfolio</title>
         <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
         <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+        <link href="https://fonts.googleapis.com/css?family=PT+Sans|Raleway" rel="stylesheet">        
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>    </head>
 
@@ -12,7 +13,7 @@
         <!-- navbar -->
 
         <header id="masthead">
-            <div class="container">
+            <div class="container-fluid">
                 <div id ="toprow" class="row">
                     <div class="col-md-4">
                         <a href="index.html" id="logo">Christine Ronk</a>
@@ -36,76 +37,76 @@
 
         <!-- main content -->
 
-        <div id="main-container" class="container">
+        <div id="main-container" class="container-fluid">
+
             <section class="main-section">
                 <div class="row">
                     <div class="col-md-12">
-                        <h1>Portfolio</h1>
+                        <h1 class="top-title">Portfolio</h1>
                     </div>
                 </div>
 
                 <div class="row">
                     <div class="col-md-6" id="project-image">
-                        <img src="assets/images/kitty1.jpg" alt="kitty">
+                        <img src="assets/images/kitty1.jpg"  alt="kitty" height=100% width=100% class="rounded">
                         
-                        <h3 id="project">Project</h3>
+                        <h3 id="project">Gumdrop</h3>
                     </div>
                     <div class="col-md-6" id="project-image">
-                        <img src="assets/images/kitty2.jpg" alt="kitty">
-
-                        <h3 id="project">Project</h3>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col-md-6" id="project-image">
-                        <img src="assets/images/kitty3.jpg" alt="kitty">
-
-                        <h3 id="project">Project</h3>
-                    </div>
-                    <div class="col-md-6" id="project-image">
-                        <img src="assets/images/kitty4.jpg" alt="kitty">
-
-                        <h3 id="project">Project</h3>
+                        <img src="assets/images/kitty2.jpg" alt="kitty" height=100% width=100% class="rounded">
+ 
+                        <h3 id="project">'Lil Meow Wow</h3>
                     </div>
                 </div>
 
                 <div class="row">
                     <div class="col-md-6" id="project-image">
-                        <img src="assets/images/kitty5.jpg" alt="kitty">
+                        <img src="assets/images/kitty3.jpg" alt="kitty" height=100% width=100% class="rounded">
 
-                        <h3 id="project">Project</h3>
+                        <h3 id="project">Puppy</h3>
+                    </div>
+                    <div class="col-md-6" id="project-image">
+                        <img src="assets/images/kitty4.jpg" alt="kitty" height=100% width=100% class="rounded">
+
+                        <h3 id="project">Mittens</h3>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-6" id="project-image">
+                        <img src="assets/images/kitty5.jpg" alt="kitty" height=100% width=100% class="rounded">
+
+                        <h3 id="project">Sprinkles</h3>
                     </div>
                 </div>  
             </section>   
-            </div>
-        </div>
+    
             
-        <!-- social media connect -->
+            <!-- social media connect -->
 
             <section id="social" class="connect-card">
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="card">
-                            <div class="card-body">
-                                <h3 class="card-title">Connect With Me</h3>
-                                <a href="https://github.com/cmronk" class="card-link"><img src="assets/images/github.svg" height=50px width=50px></a>
-                                <a href="https://linkedin.com/in/christine-ronk-61244b152" class="card-link"><img src="assets/images/Linkedin.svg.png" height=50px width=50px></a>
-                                <a href="https://stackexchange.com/users/12928161/christine-ronk" class="card-link"><img src="assets/images/stackoverflow.png" height=50px width=50px></a>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h3 class="card-title">Connect With Me</h3>
+                                        <a href="https://github.com/cmronk" class="card-link"><img src="assets/images/github.svg" height=50px width=50px></a>
+                                        <a href="https://linkedin.com/in/christine-ronk-61244b152" class="card-link"><img src="assets/images/Linkedin.svg.png" height=50px width=50px></a>
+                                        <a href="https://stackexchange.com/users/12928161/christine-ronk" class="card-link"><img src="assets/images/stackoverflow.png" height=50px width=50px></a>                                
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-            </section>            
-        
+            </section>
+        </div>
 
         <!-- footer -->
-
-        <footer>
-            <div class="container">
-                Copyright &copy;
-            </div>
-        </footer>
-        
+        <div class="fixed-bottom">
+            <footer>
+                <div class="container">
+                    Copyright &copy;
+                </div>
+            </footer>
+        </div>
     </body>
 </html>
